@@ -30,12 +30,9 @@ plugins:
 exclude_patterns:
 - tests/*
 - vendor/*
-- assets/admin/css/*
-- assets/admin/js/*
-- assets/front/css/*
-- assets/front/js/*
-- assets/vendor/*
+- admin/assets/css/*
+- admin/assets/js/*
+- public/assets/css/*
+- public/assets/js/*
 - includes/**/index.php
-- includes/updates/*
-- includes/modules/redirections/views/*
-- includes/modules/schema/assets/src/Functions/schemaMaps.js
+- modules/**/index.php
