@@ -65,7 +65,7 @@
 	<rule ref="WordPress.WP.I18n">
 		<properties>
 			<property name="text_domain" type="array">
-				<element value="wordpress-email"/>
+				<element value="advanced-ads"/>
 			</property>
 		</properties>
 	</rule>
@@ -80,8 +80,8 @@
 		</properties>
 	</rule>
 
-	<rule ref="Generic.Arrays">
+	<!-- <rule ref="Generic.Arrays">
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
-	</rule>
+	</rule> -->
 
 </ruleset>
